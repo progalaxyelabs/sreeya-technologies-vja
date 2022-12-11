@@ -2,249 +2,137 @@
 <html lang="en">
 
 <head>
-
-    <!-- Basic Page Needs
-  ================================================== -->
     <meta charset="utf-8">
     <title>Sreeya Technologies - Software Consultancy</title>
-
-    <!-- Mobile Specific Metas
-  ================================================== -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Software Consultancy">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
-
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-    <!-- Animate -->
-    <link rel="stylesheet" href="plugins/animate-css/animate.css">
-    <!-- Icon Font css -->
-    <!-- <link rel="stylesheet" href="plugins/fontawesome/css/all.css"> -->
-    <!-- <link rel="stylesheet" href="plugins/fonts/Pe-icon-7-stroke.css"> -->
-    <!-- Themify icon Css -->
-    <!-- <link rel="stylesheet" href="plugins/themify/css/themify-icons.css"> -->
-    <!-- Slick Carousel CSS -->
-    <!-- <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css"> -->
-    <!-- <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-
-    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
-
-    <!--Favicon-->
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
 
 </head>
 
 <body id="top-header">
-
-    <!-- LOADER TEMPLATE -->
     <div id="page-loader">
         <div class="loader-icon fa fa-spin colored-border"></div>
     </div>
-    <!-- /LOADER TEMPLATE -->
-
-    <!-- <div class="top-bar bg-dark py-2 py-md-0" id="top-bar">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-6 col-md-6">
-        <div class="top-bar-left text-white text-md-left text-sm-center">
-          <i class="fas fa-map-marker-alt"></i>
-          <span class="ml-2">4 Goldfield Rd. Honolulu, HI 96815</span>
-        </div>
-      </div>
-
-      <div class="col-lg-4 ml-lg-auto col-md-6">
-        <ul class="list-inline list-unstyled header-socials text-md-right text-sm-center">
-          <li class="list-inline-item"><a href="#!"> <i class="fab fa-facebook-f"></i></a></li>
-          <li class="list-inline-item"><a href="#!"> <i class="fab fa-twitter"></i></a></li>
-          <li class="list-inline-item"><a href="#!"> <i class="fab fa-pinterest-p"></i></a></li>
-          <li class="list-inline-item"><a href="#!"> <i class="fab fa-linkedin"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div> -->
 
     <div class="logo-bar">
         <div class="container-fluid">
             <div class="logo-bar-row">
-                <!-- <div class="logo-bar-brand">
-        <div class="logo">
-          
-          <a class="navbar-brand js-scroll-trigger" href="/">
-            <h2 class="mb-0">
-                <span class="tall-letter">S</span><span>REEYA</span>&nbsp;<span class="tall-letter">T</span><span>ECHNOLOGIES</span>
-            </h2>
-          </a>
-        </div>
-      </div> -->
+                <div class="logo-bar-brand">
+                    <div class="logo">
 
-                <div class="logo-bar-info">
-                    <div class="top-info-block d-inline-flex">
-                        <!-- <div class="icon-block">
-            <i class="ti-mobile"></i>
-          </div> -->
-                        <div class="info-block">
-                            <div>
-                                <i class="bi bi-whatsapp"></i>
-                                <h5 class="font-weight-500">+91 82977 26628</h5>
-                            </div>
-                            <div>
-                                <i class="bi bi-whatsapp"></i>
-                                <h5 class="font-weight-500">+91 82977 26454</h5>
-                            </div>
-                            <!-- <p>Whatsapp</p> -->
-                        </div>
+                        <a class="navbar-brand js-scroll-trigger" href="/">
+                            <h2 class="mb-0">
+                                <span class="tall-letter">S</span><span>REEYA</span>&nbsp;<span
+                                    class="tall-letter">T</span><span>ECHNOLOGIES</span>
+                            </h2>
+                        </a>
                     </div>
-                    <!-- <div class="top-info-block d-inline-flex">
-            <div class="icon-block">
-                <i class="ti-mobile"></i>
-            </div>
-            <div class="info-block">
-                <h5 class="font-weight-500">+91 8297726454</h5>
-                <p>Phone</p>
-            </div>
-        </div> -->
+                </div>
 
-                    <!-- <div class="top-info-block d-inline-flex">
-          <div class="icon-block">
-            <i class="ti-email"></i>
-          </div>
-          <div class="info-block">
-            <h5 class="font-weight-500">info@example.com</h5>
-            <p>Email Us</p>
-          </div>
-        </div> -->
-                    <div class="top-info-block d-inline-flex">
-                        <div class="icon-block">
-                            <i class="ti-time"></i>
-                        </div>
-                        <div class="info-block">
-                            <h5 class="font-weight-500">Mon-Sat 10AM-6PM </h5>
-                            <h5 class="font-weight-500">Sunday Closed</p>
-                        </div>
+                <div class="logo-bar-info container">
+                    <div class="top-info-block">
+                        <a href="#" data-toggle="modal" data-target="#contactModal">
+                            <i class="bi bi-whatsapp"></i>
+                            <span class="font-weight-500">+91 82977 26628</span>
+                        </a>
+                        <a href="tel:+918297726454">
+                            <i class="bi bi-telephone"></i>
+                            <span class="font-weight-500">+91 82977 26454</span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
 
-    <!-- NAVBAR
-    ================================================= -->
-    <div class="main-navigation" id="mainmenu-area">
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Contact via</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="tel:+918297726454">Phone Call</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://api.whatsapp.com/send?phone=918297726628" target="_blank">Whatsapp
+                                message</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- <div class="main-navigation" id="mainmenu-area">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary main-nav navbar-togglable rounded-radius">
 
                 <a class="navbar-brand d-lg-none d-block" href="/">
                     <h4 class="h3 mb-0">Sreeya Technologies</h4>
                 </a>
-                <!-- Toggler -->
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="fa fa-bars"></span>
                 </button>
 
-                <!-- Collapse -->
+
                 <div class="collapse navbar-collapse has-dropdown" id="navbarCollapse">
-                    <!-- Links -->
+
                     <ul class="navbar-nav ">
-                        <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#!" id="navbarWelcome" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Home
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarWelcome">
-              <li><a class="dropdown-item" href="index.html">Home-1</a></li>
-              <li><a class="dropdown-item" href="index-2.html">Home-2</a></li>
-              <li><a class="dropdown-item" href="index-3.html">Home-3</a></li>
-              <li><a class="dropdown-item" href="index-4.html">Home-4</a></li>
-
-              <li class="dropdown dropdown-submenu dropright">
-                <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
-                <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                  <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-                  <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-                </ul>
-              </li>
-
-              <li class="dropdown dropdown-submenu dropleft">
-                <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
-                <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                  <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-                  <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li> -->
                         <li class="nav-item ">
                             <a href="about.html" class="nav-link js-scroll-trigger">
                                 About
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a href="service.html" class="nav-link js-scroll-trigger">
-                                Services
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="pricing.html" class="nav-link js-scroll-trigger">
-                                Pricing
-                            </a>
-                        </li>
-
-                        <li class="nav-item ">
-                            <a href="project.html" class="nav-link js-scroll-trigger">
-                                Projects
-                            </a>
-                        </li>
-
-                        <li class="nav-item ">
                             <a href="contact.html" class="nav-link">
                                 Contact
                             </a>
                         </li>
                     </ul>
-
-                    <!-- <ul class="ml-lg-auto list-unstyled m-0">
-          <li><a href="contact.html" class="btn btn-white btn-circled">Get a quote</a></li>
-        </ul> -->
-                </div> <!-- / .navbar-collapse -->
+                </div>
             </nav>
-        </div> <!-- / .container -->
-    </div>
+        </div>
+    </div> -->
 
 
-
-    <!-- HERO
-    ================================================== -->
     <section class="banner-area py-7">
-        <!-- Content -->
         <div class="container">
             <div class="row  align-items-center">
                 <div class="col-md-12 col-lg-7 text-center text-lg-left">
                     <div class="main-banner">
-                        <!-- Heading -->
                         <h1 class="display-4 mb-4 font-weight-normal">
                             Industry Leading Managed Services Solutions
                         </h1>
-
-                        <!-- Subheading -->
                         <p class="lead mb-4">
                             Rappo is set of landing and support pages aimed at helping companies promote new products
                             and business launches.
                         </p>
 
-                        <!-- Button -->
                         <p class="mb-0">
-                            <a href="#!" target="_blank" class="btn btn-primary btn-circled">
-                                Purchase now
+                            <a href="https://api.whatsapp.com/send?phone=918297726628" target="_blank"
+                                class="btn btn-success btn-circled">
+                                <i class="bi bi-whatsapp"></i> Contact now
                             </a>
                         </p>
                     </div>
@@ -255,8 +143,8 @@
                         <img src="images/banner-img-5.png" alt="banner-img" class="img-fluid">
                     </div>
                 </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
+            </div>
+        </div>
     </section>
 
 
@@ -303,107 +191,9 @@
                     </div>
                 </div>
             </div>
-        </div> <!-- / .container -->
+        </div>
     </section>
 
-
-
-    <!-- SERVICE-1
-    ================================================== -->
-    <!-- <section class="bg-grey" id="service">
-        <div class="container">
-            <div class="row ">
-                <div class="col-lg-4">
-                    <div class="service-img">
-                        <img src="images/blog-lg.jpg" alt="" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-lg-6 pl-4">
-                    <div class="service-content">
-                        <h1>Get a better deal and start saving money today</h1>
-                        <p>We compare hundreds of leading products and plans across many categories to bring you the best value for money.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- <section class="pt-5 service-wrap">
-        <div class="container">
-            <div class="row ">
-                <div class="col-lg-8 offset-lg-4">
-                    <div class="carousel slide " id="service-carousel" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="col-lg-12">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="service-block media">
-                                                <div class="service-icon">
-                                                    <i class="ti-reload"></i>
-                                                </div>
-                                                <div class="service-inner-content media-body">
-                                                    <h4>Backup System</h4>
-                                                    <p>Our team are experts in matching you with the right provider.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="service-block media">
-                                                <div class="service-icon">
-                                                    <i class="ti-cloud"></i>
-                                                </div>
-                                                <div class="service-inner-content media-body">
-                                                    <h4>Cloud Hosting</h4>
-                                                    <p>Our team are experts in matching you with the right provider.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="col-lg-12">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="service-block media">
-                                                <div class="service-icon">
-                                                    <i class="ti-world"></i>
-                                                </div>
-                                                <div class="service-inner-content media-body">
-                                                    <h4>Web hosting</h4>
-                                                    <p>Our team are experts in matching you with the right provider.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="service-block media">
-                                                <div class="service-icon">
-                                                    <i class="ti-server"></i>
-                                                </div>
-                                                <div class="service-inner-content media-body">
-                                                    <h4>Office Cloud</h4>
-                                                    <p>Our team are experts in matching you with the right provider.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <p class="pl-3">Want to know more about this? <a href="#!">Contact us</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
     <section class="section" id="process">
         <div class="container">
             <div class="row justify-content-center">
@@ -411,12 +201,12 @@
                     <div class="section-heading">
                         <!-- Heading -->
                         <h2 class="section-title">
-                            Our Working process
+                            Opportunities
                         </h2>
 
                         <!-- Subheading -->
                         <p>
-                            Rappo can be used to create anything from a small marketing page to a sophisticated website.
+                            We work to process applications for following destinations across the world for Job and Education
                         </p>
 
                     </div>
@@ -426,26 +216,74 @@
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="process-block">
-                        <img src="images/process/process-1.jpg" alt="" class="img-fluid">
+                        <img src="/images/locations/usa3.jpg" alt="" class="img-fluid">
 
-                        <h3>Project Research</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                        <h3>U S A</h3>
+                        <!-- <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="process-block">
-                        <img src="images/process/process-2.jpg" alt="" class="img-fluid">
+                        <img src="/images/locations/uk2.jpg" alt="" class="img-fluid">
 
-                        <h3>Project demostration</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                        <h3>U K</h3>
+                        <!-- <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="process-block">
-                        <img src="images/process/process-3.jpg" alt="" class="img-fluid">
+                        <img src="/images/locations/czech1.jpg" alt="" class="img-fluid">
 
-                        <h3>Development & delivery</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
+                        <h3>Czec Republic</h3>
+                        <!-- <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="process-block">
+                        <img src="/images/locations/australia1.jpg" alt="" class="img-fluid">
+
+                        <h3>Australia</h3>
+                        <!-- <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="process-block">
+                        <img src="/images/locations/canada1.jpg" alt="" class="img-fluid">
+
+                        <h3>Canada</h3>
+                        <!-- <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="process-block">
+                        <img src="/images/locations/dubai1.jpg" alt="" class="img-fluid">
+
+                        <h3>Dubai</h3>
+                        <!-- <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="process-block">
+                        <img src="/images/locations/maldives1.jpg" alt="" class="img-fluid">
+
+                        <h3>Maldives</h3>
+                        <!-- <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="process-block">
+                        <img src="/images/locations/singapore1.jpg" alt="" class="img-fluid">
+
+                        <h3>Singapore</h3>
+                        <!-- <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="process-block">
+                        <img src="/images/locations/malaysia1.jpg" alt="" class="img-fluid">
+
+                        <h3>Malaysia</h3>
+                        <!-- <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p> -->
                     </div>
                 </div>
             </div>
@@ -458,18 +296,18 @@
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-6 text-center">
                     <div class="section-heading">
-                        <!-- Heading -->
+
                         <h2 class="section-title mb-2 text-white">
                             Web Services
                         </h2>
 
-                        <!-- Subheading -->
+
                         <p class="mb-5 text-white">
                             Rappo can be used to create anything from a small marketing page to a sophisticated website.
                         </p>
                     </div>
                 </div>
-            </div> <!-- / .row -->
+            </div>
 
             <div class="row">
                 <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
@@ -524,135 +362,9 @@
             </div>
         </div>
     </section>
-    <!-- <section class="section" id="pricing">
-        
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-        
-                        <h2 class="section-title">
-                            Affordable Price Plan
-                        </h2>
-
-        
-                        <p>
-                            Rappo can be used to create anything from a small marketing page to a sophisticated website.
-                        </p>
-                    </div>
-                </div>
-            </div> 
-
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="pricing-box">
-                       <h3>Stnadard</h3>
-                        <div class="price-block">
-                             <h2><small>$</small>13<span>monthly</span></h2>
-                        </div>
-
-                        <ul class="price-features list-unstyled">
-                            <li>Unlimited Domain</li>
-                            <li>Unmetered Bandwidth</li>
-                            <li>Free SSL Certificate </li>
-                            <li>20 Email Subscription</li>
-                            <li>SSD Hosting</li>
-                        </ul>
-
-                        <a href="#!" class="btn btn-outline-dark btn-circled">Purchase Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="pricing-box">
-                        <h3>Premium</h3>
-                        <div class="price-block">
-                             <h2><small>$</small>23<span>monthly</span></h2>
-                        </div>
-
-                        <ul class="price-features list-unstyled">
-                            <li>Unlimited Domain</li>
-                            <li>Unmetered Bandwidth</li>
-                            <li>Free SSL Certificate </li>
-                            <li>20 Email Subscription</li>
-                            <li>SSD Hosting</li>
-                        </ul>
-
-                        <a href="#!" class="btn btn-primary btn-circled">Purchase Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-8 col-md-6">
-                    <div class="pricing-box ">
-                        <h3>Business</h3>
-                        <div class="price-block">
-                             <h2><small>$</small>33<span>monthly</span></h2>
-                        </div>
-
-                        <ul class="price-features list-unstyled">
-                            <li>Unlimited Domain</li>
-                            <li>Unmetered Bandwidth</li>
-                            <li>Free SSL Certificate </li>
-                            <li>20 Email Subscription</li>
-                            <li>SSD Hosting</li>
-                        </ul>
-
-                        <a href="#!" class="btn btn-outline-dark btn-circled">Purchase Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- <section class="section" id="projects-wrap">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="section-heading">
-                        <h1 class="text-white">We are trying to deliver 100% quality product and success their business to achieve ultimate goal.</h1>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <p class="lead text-white">We are providing best service since 1990 to present , committed to best service delivery.Nullam metus enim, placerat in lacus vel, porttitor egestas libero. Etiam ex risus, feugiat eget accumsan eu, sagittis eu urna. In eget ultrices metus. Nunc accumsan </p>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <section id="projects" class="section-bottom">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-                    <div class="single-project">
-                        <img src="images/projects/p-1.jpg" alt="" class="img-fluid">
-                        <div class="project-content">
-                            <h4>Project: onepage</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi
-                                consequuntur veniam quod</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-                    <div class="single-project">
-                        <img src="images/projects/p-4.jpg" alt="" class="img-fluid">
-                        <div class="project-content">
-                            <h4>Project: business</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi
-                                consequuntur veniam quod</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-8 ">
-                    <div class="single-project">
-                        <img src="images/projects/p-3.jpg" alt="" class="img-fluid">
-                        <div class="project-content">
-                            <h4>Project : Marketing</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi
-                                consequuntur veniam quod</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div class="row py-4">
                 <div class="col-lg-7 col-md-12 col-sm-12 ">
                     <div class="single-project">
@@ -671,227 +383,39 @@
         </div>
     </section>
 
-    <section class="section" id="section-testimonial">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4 col-sm-12 col-md-12">
-                    <div class="section-heading testimonial-heading">
-                        <h1>What they say <br>about us</h1>
-                        <p>Numquam doloribus impedit at consectetur molestiae tempora ratione possimus in veniam
-                            aperiam, eum consequuntur, unde. Earum ullam molestiae suscipit saepe sunt recusandae.</p>
-                    </div>
-                </div>
-                <div class="col-lg-8 col-sm-12 col-md-12">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                                <div class="test-author-thumb d-flex">
-                                    <img src="images/client/test-1.jpg" alt="Testimonial author" class="img-fluid">
-                                    <div class="test-author-info">
-                                        <h4>Will Barrow</h4>
-                                        <h6>Sunrise Paradise Hotel</h6>
-                                    </div>
-                                </div>
 
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore
-                                qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                                <div class="test-author-thumb d-flex">
-                                    <img src="images/client/test-2.jpg" alt="Testimonial author" class="img-fluid">
-                                    <div class="test-author-info">
-                                        <h4>Will Barrow</h4>
-                                        <h6>Sunrise Paradise Hotel</h6>
-                                    </div>
-                                </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore
-                                qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                                <div class="test-author-thumb d-flex">
-                                    <img src="images/client/test-3.jpg" alt="Testimonial author" class="img-fluid">
-                                    <div class="test-author-info">
-                                        <h4>Will Barrow</h4>
-                                        <h6>Sunrise Paradise Hotel</h6>
-                                    </div>
-                                </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore
-                                qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                                <div class="test-author-thumb d-flex">
-                                    <img src="images/client/test-4.jpg" alt="Testimonial author" class="img-fluid">
-                                    <div class="test-author-info">
-                                        <h4>Will Barrow</h4>
-                                        <h6>Sunrise Paradise Hotel</h6>
-                                    </div>
-                                </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore
-                                qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner">
-                                <div class="test-author-thumb d-flex">
-                                    <img src="images/client/test-5.jpg" alt="Testimonial author" class="img-fluid">
-                                    <div class="test-author-info">
-                                        <h4>Will Barrow</h4>
-                                        <h6>Sunrise Paradise Hotel</h6>
-                                    </div>
-                                </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore
-                                qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6">
-                            <div class="test-inner">
-                                <div class="test-author-thumb d-flex">
-                                    <img src="images/client/test-6.jpg" alt="Testimonial author" class="img-fluid">
-                                    <div class="test-author-info">
-                                        <h4>Will Barrow</h4>
-                                        <h6>Sunrise Paradise Hotel</h6>
-                                    </div>
-                                </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore
-                                qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section" id="blog">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-                        <!-- Heading -->
-                        <h2 class="section-title">
-                            Read our latest news
-                        </h2>
-
-                        <!-- Subheading -->
-                        <p>
-                            Our duty towards you is to share our experience we're reaching in our work path with you.
-                        </p>
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-box">
-                        <div class="blog-img-box">
-                            <img src="images/blog/blog-1.jpg" alt="" class="img-fluid blog-img">
-                        </div>
-                        <div class="single-blog">
-                            <div class="blog-content">
-                                <h6> 17 October 2018</h6>
-                                <a href="#!">
-                                    <h3 class="card-title">Top tips to speed up your site in a speedy time</h3>
-                                </a>
-                                <p>There are many variations of passages Lorem Ipsum available, but majority have ama
-                                    suffered altratio. the lorem.</p>
-                                <a href="#!" class="read-more">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-box">
-                        <div class="blog-img-box">
-                            <img src="images/blog/blog-2.jpg" alt="" class="img-fluid blog-img">
-                        </div>
-                        <div class="single-blog">
-                            <div class="blog-content">
-                                <h6> 17 October 2018</h6>
-                                <a href="#!">
-                                    <h3 class="card-title">Brand your site value with marketing strategies</h3>
-                                </a>
-
-                                <p>There are many variations of passages Lorem Ipsum available, but majority have ama
-                                    suffered altratio. the lorem.</p>
-                                <a href="#!" class="read-more">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-8">
-                    <div class="blog-box">
-                        <div class="blog-img-box">
-                            <img src="images/blog/blog-3.jpg" alt="" class="img-fluid blog-img">
-                        </div>
-                        <div class="single-blog">
-                            <div class="blog-content">
-                                <h6> 17 October 2018</h6>
-                                <a href="#!">
-                                    <h3 class="card-title">Website Optimization is very essential for site speed</h3>
-                                </a>
-                                <p>There are many variations of passages Lorem Ipsum available, but majority have ama
-                                    suffered altratio. the lorem.</p>
-                                <a href="#!" class="read-more">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <footer class="section " id="footer">
         <div class="overlay footer-overlay"></div>
-        <!--Content -->
+
         <div class="container">
             <div class="row justify-content-start">
                 <div class="col-lg-4 col-sm-12">
                     <div class="footer-widget">
-                        <!-- Brand -->
+
                         <a href="index.html" class="footer-brand text-white">
-                            Rappo
+                            Sreeya Technologies
                         </a>
-                        <p>Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's
-                            creators.Lorem ipsum
-                            dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <b>GSTIN: 37AIAPC6633M1Z7</b>
+                        </p>
+                        <p>
+                            D.No. 7-182, 2nd Floor
+                            <br />
+                            Opp. RRR Family Restaurant
+                            <br />
+                            Kammaiah Thopu
+                            <br />
+                            Kanuru, Vijayawada - 520 007
+                        </p>
+                        <p>
+
+                        </p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 ml-lg-auto col-sm-12">
                     <div class="footer-widget">
-                        <h3>Account</h3>
-                        <!-- Links -->
                         <ul class="footer-links ">
                             <li>
                                 <a href="#!">
@@ -925,8 +449,6 @@
 
                 <div class="col-lg-2 col-sm-6">
                     <div class="footer-widget">
-                        <h3>About</h3>
-                        <!-- Links -->
                         <ul class="footer-links">
                             <li>
                                 <a href="about.html">
@@ -957,72 +479,25 @@
                         </ul>
                     </div>
                 </div>
-
-                <div class="col-lg-2 col-sm-6">
-                    <div class="footer-widget">
-                        <h3>Socials</h3>
-                        <!-- Links -->
-                        <ul class="list-unstyled footer-links">
-                            <li><a href="https://www.facebook.com/themefisher"><i
-                                        class="fab fa-facebook-f"></i>Facebook</a></li>
-                            <li>
-                                <a href="https://www.twitter.com/themefisher"><i class="fab fa-twitter"></i>Twitter
-                                </a>
-                            </li>
-                            <li><a href="https://www.pinterest.com/themefisher/"><i
-                                        class="fab fa-pinterest-p"></i>Pinterest
-                                </a></li>
-                            <li><a href="https://themefisher.com/"><i class="fab fa-linkedin"></i>linkedin
-                                </a></li>
-                            <li><a href="https://www.youtube.com/channel/UCx9qVW8VF0LmTi4OF2F8YdA"><i
-                                        class="fab fa-youtube"></i>YouTube
-                                </a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div> <!-- / .row -->
+            </div>
 
 
             <div class="row text-right pt-5">
                 <div class="col-lg-12">
                     <div class="overflow-hidden">
-                        <!-- Copyright -->
                         <p class="footer-copy">
-                            Copyright &copy;
-                            <script>var CurrentYear = new Date().getFullYear()
-                                document.write(CurrentYear)
-                            </script>. Designed &amp; Developed by <a class="current-year"
-                                href="https://themefisher.com/">Themefisher</a>
+                            &copy; 2019 - 2022 <a class="current-year" href="/">Sreeya Technologies</a>
                         </p>
                     </div>
                 </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
+            </div>
+        </div>
     </footer>
 
-
-    <!--  Page Scroll to Top  -->
-
     <a id="scroll-to-top" class="scroll-to-top js-scroll-trigger" href="#top-header">
-        <!-- <i class="fa fa-angle-up"></i> -->
         <i class="bi bi-chevron-up"></i>
     </a>
 
-    <!-- 
-  Essential Scripts
-  =====================================-->
-    <!-- jQuery -->
-    <!-- <script src="plugins/jquery/jquery.min.js"></script> -->
-    <!-- Bootstrap -->
-    <!-- <script src="plugins/bootstrap/bootstrap.min.js"></script> -->
-    <!-- Slick Slider -->
-    <!-- <script src="plugins/slick-carousel/slick/slick.min.js"></script> -->
-    <!-- Google Map -->
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script> -->
-    <!-- <script src="plugins/google-map/gmap.js"></script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
